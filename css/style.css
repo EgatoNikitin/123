@@ -33,11 +33,6 @@ body {
   margin: 0 auto;
   width: 1110px;
 }
-@media (max-width: 376px) {
-  .wrapper {
-    margin: 0 200px;
-  }
-}
 .landing {
   background-image: url(../bgc.png);
   width: 1920px;
@@ -367,29 +362,6 @@ body {
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-@media (max-width: 376px) {
-  .zapis-button {
-    left: 489px;
-  }
-  .input-adres {
-    left: 491px;
-  }
-  .img-vinograd {
-    left: 175px;
-  }
-  .img-bo4ka {
-    right: 552px;
-  }
-  .input-name {
-    left: 491px;
-  }
-  .input-telephone {
-    left: 776px;
-  }
-  .zapis-title {
-    left: 515px;
-  }
-}
 .zapis-button:hover {
   background-color: #998431;
 }
@@ -464,4 +436,60 @@ footer {
 .footer-img {
   max-width: 24px;
   max-height: 19px;
+}
+@media (max-width: 396px) {
+  .wrapper {
+    margin: 0 240px;
+  }
+}
+@media (max-width: 376px) {
+  .wrapper {
+    margin: 0 200px;
+  }
+}
+@media (max-width: 396px) {
+  .zapis-button {
+    left: 529px;
+  }
+  .input-adres {
+    left: 531px;
+  }
+  .img-vinograd {
+    left: 215px;
+  }
+  .img-bo4ka {
+    right: 592px;
+  }
+  .input-name {
+    left: 531px;
+  }
+  .input-telephone {
+    left: 836px;
+  }
+  .zapis-title {
+    left: 555px;
+  }
+}
+@media (max-width: 376px) {
+  .zapis-button {
+    left: 489px;
+  }
+  .input-adres {
+    left: 491px;
+  }
+  .img-vinograd {
+    left: 175px;
+  }
+  .img-bo4ka {
+    right: 552px;
+  }
+  .input-name {
+    left: 491px;
+  }
+  .input-telephone {
+    left: 776px;
+  }
+  .zapis-title {
+    left: 515px;
+  }
 }
