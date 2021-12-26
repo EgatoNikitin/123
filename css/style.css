@@ -33,6 +33,11 @@ body {
   margin: 0 auto;
   width: 1110px;
 }
+@media (max-width: 376px) {
+  .wrapper {
+    margin: 0 200px;
+  }
+}
 .landing {
   background-image: url(../bgc.png);
   width: 1920px;
@@ -97,13 +102,8 @@ body {
 .gray-block {
   color: #fff;
   width: 1920px;
-  height: 856px;
+  height: 756px;
   background-color: #282828;
-}
-.gray-block-wrapper {
-  box-sizing: border-box;
-  max-width: 1110px;
-  margin: 0 auto;
   padding-top: 100px;
 }
 .gray-h2 {
@@ -360,13 +360,35 @@ body {
   border: 1px solid #fff;
   color: #fff;
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+@media (max-width: 376px) {
+  .zapis-button {
+    left: 489px;
+  }
+  .input-adres {
+    left: 491px;
+  }
+  .img-vinograd {
+    left: 175px;
+  }
+  .img-bo4ka {
+    right: 552px;
+  }
+  .input-name {
+    left: 491px;
+  }
+  .input-telephone {
+    left: 776px;
+  }
+  .zapis-title {
+    left: 515px;
+  }
 }
 .zapis-button:hover {
   background-color: #998431;
